@@ -1,0 +1,23 @@
+import Link from "next/link";
+import "@/styles/css";
+
+export default function esquecisenha() 
+  return (
+    <div className="container">
+
+      <div className="right-section">
+        <h2>REDEFINIR SENHA</h2>
+
+        <form className="form">
+          <label htmlFor="email">DIGITE SEU E-MAIL:</label>
+          <input id="email" type="email" placeholder="EMAIL CADASTRADO" />
+
+          <button className="btn-primary">ENVIAR LINK</button>
+        </form>
+        
+        <Link href="/auth/login" className="link">
+          Voltar para o login
+        </Link>
+      </div>
+    </div>
+  );
