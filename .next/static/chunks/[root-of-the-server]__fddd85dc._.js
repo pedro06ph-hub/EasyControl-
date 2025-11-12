@@ -632,7 +632,7 @@ function Login() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/redefinir-senha",
+                                            href: "/Esquecisenha",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].link,
                                             children: "ESQUECI MINHA SENHA"
                                         }, void 0, false, {

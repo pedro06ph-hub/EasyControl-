@@ -45,7 +45,7 @@ export default function Login() {
 
             <div className={styles.links}>
               <Link href="/criar-conta" className={styles.link}>CRIAR CONTA</Link>
-              <Link href="/redefinir-senha" className={styles.link}>ESQUECI MINHA SENHA</Link>
+              <Link href="/Esquecisenha" className={styles.link}>ESQUECI MINHA SENHA</Link>
             </div>
           </div>
         </section>
