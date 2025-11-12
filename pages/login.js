@@ -1,44 +1,55 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "@/styles/Login.module.css";
 import Link from "next/link";
+import Image from "next/image";
+import styles from "../styles/Login.module.css";
 
-export default function Home() {
+export default function Login() {
   return (
     <>
       <Head>
         <title>Login - EasyControl</title>
-        <meta name="description" content="Tela de login" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Tela de login do sistema EasyControl" />
       </Head>
 
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <Image
-            className={styles.logo}
-            src="/logo.png"
-            alt="Logo"
-            width={120}
-            height={120}
-          />
+      <div className={styles.page}>
+        <section className={styles.formWrapper}>
+          <div className={styles.formCard}>
+            <div className={styles.logoContainer}>
+              <Image src="/logoEasyControl.jpg" alt="Logo EasyControl" width={80} height={80} />
+              <h1 className={styles.title}>EasyControl</h1>
+            </div>
 
-          <form className={styles.form}>
-            <label>E-MAIL:</label>
-            <input type="email" placeholder="DIGITE SEU EMAIL" />
+            <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
+              <label htmlFor="email">E-MAIL:</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="DIGITE SEU EMAIL"
+                required
+              />
 
-            <label>SENHA:</label>
-            <input type="password" placeholder="DIGITE SUA SENHA" />
+              <label htmlFor="senha">SENHA:</label>
+              <input
+                id="senha"
+                type="password"
+                placeholder="DIGITE SUA SENHA"
+                required
+              />
 
-            <button className={styles.btnPrimary}>LOGIN</button>
-          </form>
+              <button type="submit" className={styles.btnLogin}>
+                LOGIN
+              </button>
+            </form>
 
-        
-          <Link href="/forgot-password" className={styles.link}>
-            Esqueci minha senha
-          </Link>
-        </main>
+            <div className={styles.links}>
+              <Link href="/criar-conta" className={styles.link}>CRIAR CONTA</Link>
+              <Link href="/redefinir-senha" className={styles.link}>ESQUECEU MINHA SENHA</Link>
+            </div>
+          </div>
+        </section>
+
+        <aside className={styles.imageSection} />
       </div>
     </>
   );
 }
-

@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/hello.js", "pages/_document.js", "pages/index.js", "pages/Esquecisenha.js", "pages/login.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/hello.js", "pages/_document.js", "pages/index.tsx", "pages/esquecisenha.js", "pages/login.js"],
   "exclude": ["node_modules"]
 }

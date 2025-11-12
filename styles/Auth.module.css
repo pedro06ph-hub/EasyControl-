@@ -1,0 +1,100 @@
+/* === RESET PAGE === */
+.resetPage {
+  display: flex;
+  height: 100vh;
+}
+
+.resetFormSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem;
+  background-color: #ffffff;
+}
+
+.resetBackBtn {
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: #0070f3;
+}
+
+.resetLogoContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resetSubtitle {
+  font-size: 14px;
+  color: #444;
+}
+
+.resetForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.resetForm label {
+  font-size: 12px;
+}
+
+.resetForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.resetBtnPrimary {
+  padding: 12px;
+  background-color: #0070f3;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.registerPage {
+  display: flex;
+  height: 100vh;
+}
+
+.registerFormSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem;
+  background-color: #ffffff;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.registerForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.registerBtnPrimary {
+  padding: 12px;
+  background-color: #0070f3;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.authImageSection {
+  flex: 1;
+  background-image: url("/background-login.png");
+  background-size: cover;
+  background-position: center;
+}

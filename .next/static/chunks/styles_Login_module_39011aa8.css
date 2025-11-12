@@ -1,0 +1,102 @@
+/* [project]/styles/Login.module.css [client] (css) */
+.Login-module__DCxJyW__page {
+  background: linear-gradient(to right, #a9a9a9, #dcdcdc);
+  height: 100vh;
+  font-family: Segoe UI, sans-serif;
+  display: flex;
+}
+
+.Login-module__DCxJyW__formWrapper {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Login-module__DCxJyW__formCard {
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+  padding: 3rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.Login-module__DCxJyW__logoContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Login-module__DCxJyW__title {
+  color: #333;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Login-module__DCxJyW__form {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Login-module__DCxJyW__form label {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Login-module__DCxJyW__form input {
+  color: #000;
+  background-color: #f2f2f2;
+  border: 1px solid #999;
+  border-radius: 30px;
+  outline: none;
+  padding: 14px;
+}
+
+.Login-module__DCxJyW__form input::placeholder {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.Login-module__DCxJyW__btnLogin {
+  color: #fff;
+  cursor: pointer;
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 30px;
+  padding: 14px;
+  font-weight: bold;
+  transition: background .3s;
+}
+
+.Login-module__DCxJyW__btnLogin:hover {
+  background-color: #4a148c;
+}
+
+.Login-module__DCxJyW__links {
+  justify-content: space-between;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.Login-module__DCxJyW__link {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.Login-module__DCxJyW__link:hover {
+  text-decoration: underline;
+}
+
+.Login-module__DCxJyW__imageSection {
+  background-image: url("/TelaFundoEasyControl.jpg");
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+}
+
+/*# sourceMappingURL=styles_Login_module_39011aa8.css.map*/

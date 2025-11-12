@@ -1,0 +1,101 @@
+/* [project]/styles/Esquecisenha.css [client] (css) */
+.page {
+  background: linear-gradient(to right, #a0a0a0, #cfcfcf);
+  height: 100vh;
+  font-family: Segoe UI, sans-serif;
+  display: flex;
+}
+
+.formWrapper {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.formCard {
+  background-color: #bcbcbc;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+  padding: 3rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: #333;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.form {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.form label {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form input {
+  color: #000;
+  background-color: #f2f2f2;
+  border: 1px solid #999;
+  border-radius: 30px;
+  outline: none;
+  padding: 14px;
+}
+
+.form input::placeholder {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.btnEnviar {
+  color: #fff;
+  cursor: pointer;
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 30px;
+  padding: 14px;
+  font-weight: bold;
+  transition: background .3s;
+}
+
+.btnEnviar:hover {
+  background-color: #4a148c;
+}
+
+.links {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.link {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.imageSection {
+  background-image: url("/TelaFundoEasyControl.jpg");
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+}
+
+/*# sourceMappingURL=styles_Esquecisenha_b1524cd6.css.map*/

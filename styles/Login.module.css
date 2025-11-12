@@ -1,0 +1,99 @@
+.page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a9a9a9, #dcdcdc); /* 30% mais escuro */
+}
+
+.formWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formCard {
+  background-color: #c4c4c4; /* retângulo mais escuro */
+  border-radius: 30px;
+  padding: 3rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form input {
+  padding: 14px;
+  border-radius: 30px;
+  border: 1px solid #999;
+  background-color: #f2f2f2;
+  color: #000;
+  outline: none;
+}
+
+.form input::placeholder {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.btnLogin {
+  padding: 14px;
+  background-color: #6a1b9a; 
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btnLogin:hover {
+  background-color: #4a148c;
+}
+
+.links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.imageSection {
+  flex: 1;
+  background-image: url("/TelaFundoEasyControl.jpg");
+  background-size: cover;
+  background-position: center;
+}

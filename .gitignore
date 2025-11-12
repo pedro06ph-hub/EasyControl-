@@ -1,41 +1,102 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.page {
+  display: flex;
+  height: 100vh;
+  background-color: #0a0a23;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+.formSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
-# testing
-/coverage
+.logoContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-# next.js
-/.next/
-/out/
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
 
-# production
-/build
+.subtitle {
+  font-size: 14px;
+  color: #ccc;
+}
 
-# misc
-.DS_Store
-*.pem
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  gap: 12px;
+}
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+.form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #1a1a2e;
+  color: #fff;
+  outline: none;
+  transition: border 0.3s ease;
+}
 
-# env files (can opt-in for committing if needed)
-.env*
+.form input:focus {
+  border-color: #0070f3;
+}
 
-# vercel
-.vercel
+.form input::placeholder {
+  color: #aaa;
+}
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+.btnPrimary {
+  margin-top: 10px;
+  padding: 12px;
+  background: #0070f3;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background: #0059c1;
+}
+
+.linksRow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 320px;
+}
+
+.link,
+.linkSecondary {
+  font-size: 14px;
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.link:hover,
+.linkSecondary:hover {
+  text-decoration: underline;
+}
+
+.imageSection {
+  flex: 1;
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+}

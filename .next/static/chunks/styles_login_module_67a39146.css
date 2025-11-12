@@ -1,0 +1,57 @@
+/* [project]/styles/login.module.css [client] (css) */
+.login-module__TltHoW__container {
+  background: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.login-module__TltHoW__main {
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+}
+
+.login-module__TltHoW__logo {
+  margin-bottom: 10px;
+}
+
+.login-module__TltHoW__form {
+  flex-direction: column;
+  gap: 10px;
+  width: 280px;
+  display: flex;
+}
+
+.login-module__TltHoW__form input {
+  border: 1px solid #b3b3b3;
+  border-radius: 6px;
+  outline: none;
+  padding: 12px;
+}
+
+.login-module__TltHoW__btnPrimary {
+  color: #fff;
+  cursor: pointer;
+  background: #000;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.login-module__TltHoW__link {
+  cursor: pointer;
+  color: #0070f3;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-module__TltHoW__link:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles_login_module_67a39146.css.map*/
