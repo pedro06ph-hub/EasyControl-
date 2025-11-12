@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Esquecisenha.module.css";
 
-export default function EsqueciSenha() {
+export default function Esquecisenha() {
   return (
     <>
       <Head>

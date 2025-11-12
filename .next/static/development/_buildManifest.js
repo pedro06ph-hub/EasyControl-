@@ -2,14 +2,11 @@ self.__BUILD_MANIFEST = {
   "/": [
     "./static/chunks/pages/index.js"
   ],
+  "/Esquecisenha": [
+    "./static/chunks/pages/Esquecisenha.js"
+  ],
   "/_error": [
     "./static/chunks/pages/_error.js"
-  ],
-  "/esquecisenha": [
-    "./static/chunks/pages/esquecisenha.js"
-  ],
-  "/login": [
-    "./static/chunks/pages/login.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -18,10 +15,10 @@ self.__BUILD_MANIFEST = {
   },
   "sortedPages": [
     "/",
+    "/Esquecisenha",
     "/_app",
     "/_error",
     "/api/hello",
-    "/esquecisenha",
     "/login"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

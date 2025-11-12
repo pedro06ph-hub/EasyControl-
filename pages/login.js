@@ -7,7 +7,9 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Login - EasyControl</title>
+        <title>Login - EasyControl
+
+        </title>
         <meta name="description" content="Tela de login do sistema EasyControl" />
       </Head>
 
@@ -43,7 +45,7 @@ export default function Login() {
 
             <div className={styles.links}>
               <Link href="/criar-conta" className={styles.link}>CRIAR CONTA</Link>
-              <Link href="/redefinir-senha" className={styles.link}>ESQUECEU MINHA SENHA</Link>
+              <Link href="/redefinir-senha" className={styles.link}>ESQUECI MINHA SENHA</Link>
             </div>
           </div>
         </section>

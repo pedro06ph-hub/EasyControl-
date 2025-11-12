@@ -1,4 +1,4 @@
-__turbopack_load_page_chunks__("/esquecisenha", [
+__turbopack_load_page_chunks__("/Esquecisenha", [
   "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
   "static/chunks/node_modules_next_dist_compiled_aa9d047d._.js",
   "static/chunks/node_modules_next_dist_shared_lib_ce0aacb4._.js",
@@ -7,8 +7,8 @@ __turbopack_load_page_chunks__("/esquecisenha", [
   "static/chunks/node_modules_next_dc35fb80._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_db346ff0._.js",
-  "static/chunks/[root-of-the-server]__7a80d024._.js",
+  "static/chunks/[root-of-the-server]__719bb721._.js",
   "static/chunks/styles_Esquecisenha_module_6ff6b659.css",
-  "static/chunks/pages_esquecisenha_2da965e7._.js",
-  "static/chunks/turbopack-pages_esquecisenha_41130619._.js"
+  "static/chunks/pages_Esquecisenha_2da965e7._.js",
+  "static/chunks/turbopack-pages_Esquecisenha_fa93f9fc._.js"
 ])

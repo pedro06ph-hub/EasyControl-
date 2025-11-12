@@ -9,7 +9,7 @@
   "static/chunks/node_modules_next_dc35fb80._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_db346ff0._.js",
-  "static/chunks/[root-of-the-server]__7a80d024._.js",
+  "static/chunks/[root-of-the-server]__719bb721._.js",
   "static/chunks/styles_Esquecisenha_module_6ff6b659.css"
 ],
     source: "entry"
