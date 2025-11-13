@@ -15,17 +15,17 @@
     ],
     "/CriarConta": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
-      "static/chunks/node_modules_next_dist_compiled_aa9d047d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_ce0aacb4._.js",
-      "static/chunks/node_modules_next_dist_client_9b1b49db._.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
       "static/chunks/node_modules_next_dist_2e2215b7._.js",
-      "static/chunks/node_modules_next_dc35fb80._.js",
+      "static/chunks/node_modules_next_cfb04b16._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_db346ff0._.js",
       "static/chunks/[root-of-the-server]__e5bbf086._.js",
       "static/chunks/styles_Login_module_39011aa8.css",
       "static/chunks/pages_CriarConta_2da965e7._.js",
-      "static/chunks/turbopack-pages_CriarConta_d213eae2._.js"
+      "static/chunks/turbopack-pages_CriarConta_d222a915._.js"
     ],
     "/Esquecisenha": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
@@ -41,19 +41,33 @@
       "static/chunks/pages_Esquecisenha_2da965e7._.js",
       "static/chunks/turbopack-pages_Esquecisenha_fa93f9fc._.js"
     ],
+    "/Historico": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_cfb04b16._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__367814d2._.js",
+      "static/chunks/styles_Historico_module_2bb13f87.css",
+      "static/chunks/pages_Historico_2da965e7._.js",
+      "static/chunks/turbopack-pages_Historico_0cb89d46._.js"
+    ],
     "/Menu": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
       "static/chunks/node_modules_next_dist_compiled_aa9d047d._.js",
       "static/chunks/node_modules_next_dist_shared_lib_df929276._.js",
       "static/chunks/node_modules_next_dist_client_bdba867a._.js",
       "static/chunks/node_modules_next_dist_2e2215b7._.js",
-      "static/chunks/node_modules_next_8941b7e2._.js",
+      "static/chunks/node_modules_next_284f8129._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_db346ff0._.js",
-      "static/chunks/[root-of-the-server]__817eecf4._.js",
-      "static/chunks/styles_Login_module_39011aa8.css",
+      "static/chunks/[root-of-the-server]__93cdb5c7._.js",
+      "static/chunks/styles_Menu_module_7417d7d5.css",
       "static/chunks/pages_Menu_2da965e7._.js",
-      "static/chunks/turbopack-pages_Menu_acb4627b._.js"
+      "static/chunks/turbopack-pages_Menu_007539e1._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",

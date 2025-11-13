@@ -2,7 +2,7 @@
   display: flex;
   height: 100vh;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #a9a9a9, #dcdcdc); /* 30% mais escuro */
+  background: linear-gradient(to right, #a9a9a9, #dcdcdc); 
 }
 
 .formWrapper {
@@ -13,7 +13,7 @@
 }
 
 .formCard {
-  background-color: #c4c4c4; /* retângulo mais escuro */
+  background-color: #c4c4c4; 
   border-radius: 30px;
   padding: 3rem;
   width: 100%;

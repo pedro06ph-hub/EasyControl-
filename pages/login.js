@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "../styles/Login.module.css";
 
-export default function Login() {
+export default function login() {
   const router = useRouter();
   const [lembrar, setLembrar] = useState(false);
 
   const handleLogin = (e) => {
     e.preventDefault();
-    
+
     router.push("/Menu");
   };
 
@@ -63,7 +63,7 @@ export default function Login() {
             </form>
 
             <div className={styles.links}>
-              <Link href="/criar-conta" className={styles.link}>CRIAR CONTA</Link>
+              <Link href="/CriarConta" className={styles.link}>CRIAR CONTA</Link>
               <Link href="/Esquecisenha" className={styles.link}>ESQUECI MINHA SENHA</Link>
             </div>
           </div>

@@ -8,6 +8,9 @@ self.__BUILD_MANIFEST = {
   "/Esquecisenha": [
     "./static/chunks/pages/Esquecisenha.js"
   ],
+  "/Historico": [
+    "./static/chunks/pages/Historico.js"
+  ],
   "/Menu": [
     "./static/chunks/pages/Menu.js"
   ],
@@ -26,6 +29,7 @@ self.__BUILD_MANIFEST = {
     "/",
     "/CriarConta",
     "/Esquecisenha",
+    "/Historico",
     "/Menu",
     "/_app",
     "/_error",

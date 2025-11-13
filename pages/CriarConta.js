@@ -1,69 +1,50 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-import styles from "../styles/Login.module.css"; // Reutilizando o CSS da tela de login
+import { useRouter } from "next/router";
+import styles from "../styles/Login.module.css";
 
 export default function CriarConta() {
+  const router = useRouter();
+
+  const handleCadastrar = (e) => {
+    e.preventDefault();
+    router.push("/login");
+  };
+
   return (
     <>
       <Head>
         <title>Criar Conta - EasyControl</title>
-        <meta name="description" content="Tela de cadastro do sistema EasyControl" />
+        <meta name="description" content="Tela de criação de conta do EasyControl" />
       </Head>
 
       <div className={styles.page}>
-        <section className={styles.formWrapper}>
+        
+        <div className={styles.formWrapper}>
           <div className={styles.formCard}>
             <div className={styles.logoContainer}>
-              <Image src="/logoEasyControl.jpg" alt="Logo EasyControl" width={80} height={80} />
               <h1 className={styles.title}>EasyControl</h1>
             </div>
 
-            <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
-              <label htmlFor="nome">NOME:</label>
-              <input
-                id="nome"
-                type="text"
-                placeholder="DIGITE SEU NOME"
-                required
-              />
+            <form onSubmit={handleCadastrar} className={styles.form}>
+              <label htmlFor="nome">NOME</label>
+              <input type="text" id="nome" placeholder="Nome completo" required />
 
-              <label htmlFor="email">EMAIL:</label>
-              <input
-                id="email"
-                type="email"
-                placeholder="DIGITE SEU EMAIL"
-                required
-              />
+              <label htmlFor="email">EMAIL</label>
+              <input type="email" id="email" placeholder="Seu e-mail" required />
 
-              <label htmlFor="senha">SENHA DE ENTRADA:</label>
-              <input
-                id="senha"
-                type="password"
-                placeholder="DIGITE SUA SENHA"
-                required
-              />
+              <label htmlFor="senha">SENHA</label>
+              <input type="password" id="senha" placeholder="Senha" required />
 
-              <label htmlFor="confirmarSenha">CONFIRMAR SENHA:</label>
-              <input
-                id="confirmarSenha"
-                type="password"
-                placeholder="CONFIRME SUA SENHA"
-                required
-              />
-
-              <button type="submit" className={styles.btnLogin}>
-                CONFIRMAR
-              </button>
+              <button type="submit" className={styles.btnLogin}>CADASTRAR</button>
             </form>
 
             <div className={styles.links}>
-              <Link href="/login" className={styles.link}>VOLTAR PARA LOGIN</Link>
+              <a className={styles.link} onClick={() => router.push("/login")}>JÁ TEM CONTA?</a>
             </div>
           </div>
-        </section>
+        </div>
 
-        <aside className={styles.imageSection} />
+        <div className={styles.imageSection}></div>
       </div>
     </>
   );

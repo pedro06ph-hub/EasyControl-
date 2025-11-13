@@ -2,6 +2,7 @@
   "/": "pages/index.js",
   "/CriarConta": "pages/CriarConta.js",
   "/Esquecisenha": "pages/Esquecisenha.js",
+  "/Historico": "pages/Historico.js",
   "/Menu": "pages/Menu.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",

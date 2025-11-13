@@ -492,7 +492,7 @@ __turbopack_context__.v({
 
 __turbopack_context__.s([
     "default",
-    ()=>Login
+    ()=>login
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
@@ -509,7 +509,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function Login() {
+function login() {
     _s();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [lembrar, setLembrar] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -663,7 +663,7 @@ function Login() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].links,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/criar-conta",
+                                            href: "/CriarConta",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].link,
                                             children: "CRIAR CONTA"
                                         }, void 0, false, {
@@ -713,14 +713,11 @@ function Login() {
         ]
     }, void 0, true);
 }
-_s(Login, "sfOJWTNI6Fr6ybQyw4EfmnTzk6w=", false, function() {
+_s(login, "sfOJWTNI6Fr6ybQyw4EfmnTzk6w=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
     ];
 });
-_c = Login;
-var _c;
-__turbopack_context__.k.register(_c, "Login");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
