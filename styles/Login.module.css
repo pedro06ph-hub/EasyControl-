@@ -106,4 +106,12 @@
   font-size: 0.9rem;
   color: #333;
 }
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
 

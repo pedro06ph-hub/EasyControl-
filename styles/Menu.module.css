@@ -1,0 +1,136 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  background: url("/TelaFundoEasyControl.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.logoText {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.leftPanel, .rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.calendarBox, .recordBox, .addressBox {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 16px;
+  color: #222;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.calendarBox h2,
+.addressBox h3 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #111;
+  font-size: 1.2rem;
+}
+
+.datePicker,
+.timePicker {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.btnEdit, .btnClock {
+  padding: 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnEdit {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.btnClock {
+  background-color: #10b981;
+  color: white;
+}
+
+.userMenuButton {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+}
+
+.menuToggle {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 220px;
+}
+
+.userName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownMenu li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+  cursor: pointer;
+}
+
+.dropdownMenu li:last-child {
+  border-bottom: none;
+}
+
