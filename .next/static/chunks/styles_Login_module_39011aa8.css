@@ -99,4 +99,13 @@
   flex: 1;
 }
 
+.Login-module__DCxJyW__checkboxContainer {
+  color: #333;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: .9rem;
+  display: flex;
+}
+
 /*# sourceMappingURL=styles_Login_module_39011aa8.css.map*/

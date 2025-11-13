@@ -2,6 +2,9 @@ self.__BUILD_MANIFEST = {
   "/": [
     "./static/chunks/pages/index.js"
   ],
+  "/CriarConta": [
+    "./static/chunks/pages/CriarConta.js"
+  ],
   "/Esquecisenha": [
     "./static/chunks/pages/Esquecisenha.js"
   ],
@@ -18,6 +21,7 @@ self.__BUILD_MANIFEST = {
   },
   "sortedPages": [
     "/",
+    "/CriarConta",
     "/Esquecisenha",
     "/_app",
     "/_error",

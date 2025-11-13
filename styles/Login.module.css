@@ -97,3 +97,13 @@
   background-size: cover;
   background-position: center;
 }
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+

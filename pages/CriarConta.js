@@ -1,16 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../styles/Login.module.css";
+import styles from "../styles/Login.module.css"; // Reutilizando o CSS da tela de login
 
-export default function Login() {
+export default function CriarConta() {
   return (
     <>
       <Head>
-        <title>Login - EasyControl
-
-        </title>
-        <meta name="description" content="Tela de login do sistema EasyControl" />
+        <title>Criar Conta - EasyControl</title>
+        <meta name="description" content="Tela de cadastro do sistema EasyControl" />
       </Head>
 
       <div className={styles.page}>
@@ -22,7 +20,15 @@ export default function Login() {
             </div>
 
             <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
-              <label htmlFor="email">E-MAIL:</label>
+              <label htmlFor="nome">NOME:</label>
+              <input
+                id="nome"
+                type="text"
+                placeholder="DIGITE SEU NOME"
+                required
+              />
+
+              <label htmlFor="email">EMAIL:</label>
               <input
                 id="email"
                 type="email"
@@ -30,7 +36,7 @@ export default function Login() {
                 required
               />
 
-              <label htmlFor="senha">SENHA:</label>
+              <label htmlFor="senha">SENHA DE ENTRADA:</label>
               <input
                 id="senha"
                 type="password"
@@ -38,20 +44,21 @@ export default function Login() {
                 required
               />
 
-              <div className={styles.checkboxContainer}>
-              <input type="checkbox" id="lembrar" />
-              <label htmlFor="lembrar">Lembrar-me</label>
-              </div>
-
+              <label htmlFor="confirmarSenha">CONFIRMAR SENHA:</label>
+              <input
+                id="confirmarSenha"
+                type="password"
+                placeholder="CONFIRME SUA SENHA"
+                required
+              />
 
               <button type="submit" className={styles.btnLogin}>
-                LOGIN
+                CONFIRMAR
               </button>
             </form>
 
             <div className={styles.links}>
-              <Link href="/CriarConta" className={styles.link}>CRIAR CONTA</Link>
-              <Link href="/Esquecisenha" className={styles.link}>ESQUECI MINHA SENHA</Link>
+              <Link href="/login" className={styles.link}>VOLTAR PARA LOGIN</Link>
             </div>
           </div>
         </section>

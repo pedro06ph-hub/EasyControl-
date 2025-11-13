@@ -9,6 +9,7 @@ module.exports = mod;
 
 __turbopack_context__.v({
   "btnLogin": "Login-module__DCxJyW__btnLogin",
+  "checkboxContainer": "Login-module__DCxJyW__checkboxContainer",
   "form": "Login-module__DCxJyW__form",
   "formCard": "Login-module__DCxJyW__formCard",
   "formWrapper": "Login-module__DCxJyW__formWrapper",
@@ -138,13 +139,38 @@ function Login() {
                                             lineNumber: 34,
                                             columnNumber: 15
                                         }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].checkboxContainer,
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                    type: "checkbox",
+                                                    id: "lembrar"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/login.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                    htmlFor: "lembrar",
+                                                    children: "Lembrar-me"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/login.js",
+                                                    lineNumber: 43,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/login.js",
+                                            lineNumber: 41,
+                                            columnNumber: 15
+                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                             type: "submit",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].btnLogin,
                                             children: "LOGIN"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 41,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -157,12 +183,12 @@ function Login() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].links,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/criar-conta",
+                                            href: "/CriarConta",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].link,
                                             children: "CRIAR CONTA"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 47,
+                                            lineNumber: 53,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -171,13 +197,13 @@ function Login() {
                                             children: "ESQUECI MINHA SENHA"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 48,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 46,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -195,7 +221,7 @@ function Login() {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Login$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].imageSection
                     }, void 0, false, {
                         fileName: "[project]/pages/login.js",
-                        lineNumber: 53,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
