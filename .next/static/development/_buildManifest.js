@@ -14,9 +14,6 @@ self.__BUILD_MANIFEST = {
   "/Menu": [
     "./static/chunks/pages/Menu.js"
   ],
-  "/_error": [
-    "./static/chunks/pages/_error.js"
-  ],
   "/login": [
     "./static/chunks/pages/login.js"
   ],

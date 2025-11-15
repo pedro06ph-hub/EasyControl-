@@ -13,11 +13,18 @@ export default function Historico() {
     { data: "03/11/2025", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
     { data: "04/11/2025", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
     { data: "05/11/2025", hora: "16:03", status: "AUSENTE", tempo: "00:00" },
-    { data: "06/11/2025", hora: "16:03", status: "ABONO DE FALTA", tempo: "00:00", observacao: "Falta justificada" },
+    { data: "06/11/2025", hora: "16:03", status: "ABONO DE FALTA", tempo: "00:00" },
   ];
 
   const toggleExpand = (index) => {
     setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
+  const getObservacao = (status) => {
+    if (status === "PRESENTE") return "Sem observações";
+    if (status === "AUSENTE") return "Falta não justificada";
+    if (status === "ABONO DE FALTA") return "Falta justificada";
+    return "Sem observações";
   };
 
   return (
@@ -75,8 +82,7 @@ export default function Historico() {
                   {expandedIndex === index && (
                     <tr className={styles.observacaoRow}>
                       <td colSpan="5" className={styles.observacaoBox}>
-                        <strong>Observação:</strong>{" "}
-                        {registro.observacao || "Sem observações"}
+                        <strong>Observação:</strong> {getObservacao(registro.status)}
                       </td>
                     </tr>
                   )}
