@@ -11,6 +11,9 @@ self.__BUILD_MANIFEST = {
   "/Historico": [
     "./static/chunks/pages/Historico.js"
   ],
+  "/JustificarFalta": [
+    "./static/chunks/pages/JustificarFalta.js"
+  ],
   "/Menu": [
     "./static/chunks/pages/Menu.js"
   ],
@@ -27,6 +30,7 @@ self.__BUILD_MANIFEST = {
     "/CriarConta",
     "/Esquecisenha",
     "/Historico",
+    "/JustificarFalta",
     "/Menu",
     "/_app",
     "/_error",

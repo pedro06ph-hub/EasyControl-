@@ -9,11 +9,11 @@ export default function Historico() {
 
   const registros = [
     { data: "01/11/2023", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
-    { data: "02/11/2025", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
-    { data: "03/11/2025", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
-    { data: "04/11/2025", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
-    { data: "05/11/2025", hora: "16:03", status: "AUSENTE", tempo: "00:00" },
-    { data: "06/11/2025", hora: "16:03", status: "ABONO DE FALTA", tempo: "00:00" },
+    { data: "02/11/2023", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
+    { data: "03/11/2023", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
+    { data: "04/11/2023", hora: "16:03", status: "PRESENTE", tempo: "05:00" },
+    { data: "05/11/2023", hora: "16:03", status: "AUSENTE", tempo: "00:00" },
+    { data: "06/11/2023", hora: "16:03", status: "ABONO DE FALTA", tempo: "00:00" },
   ];
 
   const toggleExpand = (index) => {
@@ -83,6 +83,14 @@ export default function Historico() {
                     <tr className={styles.observacaoRow}>
                       <td colSpan="5" className={styles.observacaoBox}>
                         <strong>Observação:</strong> {getObservacao(registro.status)}
+                        {registro.status === "AUSENTE" && (
+                          <span
+                            className={styles.justificarLink}
+                            onClick={() => router.push("/JustificarFalta")}
+                          >
+                            Justificar falta
+                          </span>
+                        )}
                       </td>
                     </tr>
                   )}

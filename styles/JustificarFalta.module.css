@@ -1,0 +1,114 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/TelaFundoEasyControl.jpg") no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 32px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 2.4rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+  color: white;
+}
+
+.infoBox {
+  background-color: #111;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 160, 255, 0.2);
+  margin-bottom: 24px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.justifyBox {
+  margin-bottom: 24px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: white;
+}
+
+.textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #222;
+  color: white;
+  resize: none;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.anexoBotao {
+  display: inline-block;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #4b5563;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fileInput {
+  display: none;
+}
+
+.anexoNome {
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.btnEnviar {
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btnEnviar:hover {
+  background-color: #1d4ed8;
+}
