@@ -72,7 +72,13 @@ export default function Menu() {
               <h3>SEU ENDEREÇO</h3>
               <p>Av. Caxangá, 3841 - Iputinga, Recife - PE, 50670-902.</p>
             </div>
-            <button className={styles.btnEditarLoc}>EDITAR LOCALIZAÇÃO</button>
+            <button
+  className={styles.btnEditarLoc}
+  onClick={() => router.push("/geolocalizacao")}
+>
+  EDITAR LOCALIZAÇÃO
+</button>
+
             <button className={styles.btnRelogio}>BATER PONTO</button>
           </div>
         </section>

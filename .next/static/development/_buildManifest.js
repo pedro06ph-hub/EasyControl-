@@ -17,6 +17,12 @@ self.__BUILD_MANIFEST = {
   "/Menu": [
     "./static/chunks/pages/Menu.js"
   ],
+  "/_error": [
+    "./static/chunks/pages/_error.js"
+  ],
+  "/geolocalizacao": [
+    "./static/chunks/pages/geolocalizacao.js"
+  ],
   "/login": [
     "./static/chunks/pages/login.js"
   ],
@@ -35,6 +41,7 @@ self.__BUILD_MANIFEST = {
     "/_app",
     "/_error",
     "/api/hello",
+    "/geolocalizacao",
     "/login"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -61,13 +61,13 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
       "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
       "static/chunks/node_modules_next_dist_2e2215b7._.js",
-      "static/chunks/node_modules_next_head_6b89d279.js",
+      "static/chunks/node_modules_next_cfb04b16._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_db346ff0._.js",
       "static/chunks/[root-of-the-server]__47ee5668._.js",
       "static/chunks/styles_JustificarFalta_module_73d68bbf.css",
       "static/chunks/pages_JustificarFalta_2da965e7._.js",
-      "static/chunks/turbopack-pages_JustificarFalta_e9fadb26._.js"
+      "static/chunks/turbopack-pages_JustificarFalta_31be39b7._.js"
     ],
     "/Menu": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
@@ -95,6 +95,34 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/styles_globals_dc36e6c9.css",
       "static/chunks/pages__app_2da965e7._.js",
       "static/chunks/turbopack-pages__app_ea8edca4._.js"
+    ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_0cccb603._.js",
+      "static/chunks/node_modules_next_error_1cfbb379.js",
+      "static/chunks/[next]_entry_page-loader_ts_43b523b5._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db4bb196._.js",
+      "static/chunks/[root-of-the-server]__092393de._.js",
+      "static/chunks/pages__error_2da965e7._.js",
+      "static/chunks/turbopack-pages__error_18aa0e75._.js"
+    ],
+    "/geolocalizacao": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_cfb04b16._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__9dc936a2._.js",
+      "static/chunks/styles_geolocalizacao_module_e5359cda.css",
+      "static/chunks/pages_geolocalizacao_2da965e7._.js",
+      "static/chunks/turbopack-pages_geolocalizacao_096e699f._.js"
     ],
     "/login": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
