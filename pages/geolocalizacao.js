@@ -9,7 +9,7 @@ export default function Geolocalizacao() {
 
   const handleLogoutClick = () => {
     alert("Você saiu da conta!");
-    router.push("/"); // redireciona para login
+    router.push("/"); 
   };
 
   return (
@@ -20,10 +20,10 @@ export default function Geolocalizacao() {
       </Head>
 
       <div className={styles.page}>
-        {/* Logo no canto superior esquerdo */}
+
         <img src="/logoEasyControl.jpg" alt="Logo EasyControl" className={styles.logoImg} />
 
-        {/* Botão de menu dropdown no canto superior direito */}
+
         <div className={styles.userMenuButton}>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
@@ -44,14 +44,12 @@ export default function Geolocalizacao() {
           )}
         </div>
 
-        {/* Barra superior com voltar */}
         <div className={styles.topBar}>
           <button className={styles.backButton} onClick={() => router.push("/Menu")}>
             ←
           </button>
         </div>
 
-        {/* Título centralizado */}
         <h2 className={styles.pageTitle}>GEOLOCALIZAÇÃO</h2>
 
         <div className={styles.container}>

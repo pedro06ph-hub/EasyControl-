@@ -1,8 +1,1 @@
-{
-  "/": "pages/index.js",
-  "/Menu": "pages/Menu.js",
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/geolocalizacao": "pages/geolocalizacao.js",
-  "/login": "pages/login.js"
-}
+{}

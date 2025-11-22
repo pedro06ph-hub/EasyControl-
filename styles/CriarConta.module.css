@@ -1,0 +1,94 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/TelaFundoEasyControl.jpg") no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  background-color: rgba(243, 244, 246, 0.95); 
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #111827;
+  margin-bottom: 24px;
+}
+
+
+.label {
+  display: block;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
+  color: #111827;
+  margin-bottom: 18px;
+}
+
+.input::placeholder {
+  color: #6b7280;
+}
+
+
+.btnCriar {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 12px;
+}
+
+.btnCriar:hover {
+  background-color: #1d4ed8;
+}
+
+
+.loginLink {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.loginLink a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
